@@ -48,7 +48,7 @@ For example, if you have your game data in a dictionary, your code could look li
 ```gdscript
 func save_game():
     var game_data = {"player_pos":$Player.position}
-    Dialogic.Save.save('MySlot', false true)
+    Dialogic.Save.save('MySlot', false, true)
     Dialogic.Save.save_file('MySlot', 'GameData.txt', game_data)
 
 func load_game():
